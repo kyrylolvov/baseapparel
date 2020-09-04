@@ -1,0 +1,89 @@
+body{
+    font-family: Josefin Sans;
+    background: url(/images/bg-pattern-desktop.svg);
+    margin: 0px;
+    color: hsl(0, 36%, 70%);
+    font-size: 16px;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.left-text{
+    padding: 5rem 9rem 0rem 9rem;
+}
+.heading{
+    color: hsl(0, 6%, 24%);
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin: 9rem 0rem 0rem 0rem;
+    letter-spacing: 0.2em;
+}
+.text{
+    margin-top: 2rem;
+    word-spacing: 0.1em;
+    word-wrap: break-word;
+    line-height: 1.5rem;
+    
+}
+span{
+    color: hsl(0, 36%, 70%);
+    font-weight: 100;
+}
+#enteremail{
+    color: hsl(0, 36%, 70%);;
+    font-family: Josefin Sans;
+    padding-left: 1.5rem;
+    border: 2px solid #efdcdc;
+    width: 20rem;
+    border-radius: 2rem;
+    height: 44px;
+    outline: transparent;
+    margin-top: 2rem;
+}
+::placeholder { 
+    color: hsl(0, 36%, 70%);
+    opacity: 1; 
+}
+#errorimg{
+    opacity: 0;
+    position: absolute;
+    margin: 45px 10rem -5rem -5rem;
+}
+#errortxt{
+    opacity: 0;
+    position: absolute;
+    margin: 10px 0rem 0rem 25px;
+    color: hsl(0, 93%, 68%);
+    font-size: 13px;
+}
+.submit-button{
+    cursor: pointer;
+    position: absolute;
+    margin: 2rem 0rem 0rem -3rem;
+    background-image: linear-gradient(135deg, hsl(0, 80%, 86%),hsl(0, 74%, 74%));
+    border-radius: 25px;
+    width: 80px;
+    height: 50px;
+    box-shadow: 0 5px 15px #debaba;
+    border: transparent;
+    outline: transparent;
+    transition: 0.5s;
+}
+button:hover {
+    transform: scale(1.1);
+    background: linear-gradient(135deg, hsl(0, 50%, 90%), hsl(0, 80%, 86%));;
+}
+.attribution{
+    text-align: center;
+}
+#enteremail:invalid{
+    border: 2px solid hsl(0, 93%, 68%);
+}
+#enteremail:invalid ~ .Error {
+    opacity: 1;
+}
+.mobile-img{
+    display: none;
+}

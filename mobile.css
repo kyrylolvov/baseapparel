@@ -1,0 +1,51 @@
+@media (max-width: 456px) {
+    body{
+        width: 100%;
+    }
+    .right-img{
+        display: none;
+    }
+
+    .mobile-img{
+        display: block;
+        width: 100%;
+    }
+    .left-text{
+        padding: 2rem 0rem 0rem 0rem;
+    }
+    .logo{
+        padding: 0rem 0rem 2rem 2rem;
+    }
+    .logo-img{
+        width: 150px;
+    }
+    .heading{
+        text-align: center;
+        margin: 5rem 0rem 0rem 0rem;
+        font-size: 3rem;
+    }
+    .text{
+        text-align: center;
+        margin: 2rem 2rem 0rem 2rem;
+    }
+    form{
+        text-align: center;
+    }
+    .submit-button{
+        margin: 2rem 0rem 0rem -5rem;
+    }
+    #errorimg{
+        margin: 45px 10rem -5rem -7rem;
+    }
+    #errortxt{
+        margin: 10px 0rem 0rem 2rem;
+    }
+    .attribution{
+        font-size: 10px;
+    }
+    
+
+
+
+
+}
